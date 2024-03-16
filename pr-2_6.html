@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    var Physics = parseInt(prompt("Enter Physics Marks :-"));
+    var Chemistry = parseInt(prompt("Enter Chemistry Marks :-"));
+    var Biology = parseInt(prompt("Enter Biology Marks :-"));
+    var Maths = parseInt(prompt("Enter Maths Marks :-"));
+    var Computer = parseInt(prompt("Enter Computer Marks :-"));
+
+    var percentage = ((Physics + Chemistry + Biology + Maths + Computer)/500) * 100;
+
+    document.write("<h1>percentage :-"+percentage+"</h1>");
+
+    if(percentage >= 90){
+        document.write("<h1>Grade A</h1>");
+    }
+    else if(percentage < 90 && percentage >= 80){
+        document.write("<h1>Grade B</h1>");
+    }
+    else if(percentage < 80 && percentage >= 70){
+        document.write("<h1>Grade C</h1>");
+    }
+    else if(percentage < 70 && percentage >= 60){
+        document.write("<h1>Grade D</h1>");
+    }
+    else if(percentage < 60 && percentage >= 50){
+        document.write("<h1>Grade E</h1>");
+    }
+    else{
+        document.write("<h1>Grade F</h1>");
+    }
+</script>

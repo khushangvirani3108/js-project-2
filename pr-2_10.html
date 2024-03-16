@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    var a = parseInt(prompt("Enter Value Of a :-"));
+    var b = parseInt(prompt("Enter Value Of b :-"));
+    var choices = parseInt(prompt("Choices are 1.addition 2.subtraction 3.multiplication 4.subtraction :-"));
+    var ans;
+    switch(choices){
+    case 1:
+        ans = a + b;
+        document.write("<h1>addition :- "+ans+"</h1>");
+        break;
+    case 2:
+        ans = a - b;
+        document.write("<h1>subtraction :- "+ans+"</h1>");
+        break;
+    case 3:
+        ans = a * b;
+        document.write("<h1>Multiplication :- "+ans+"</h1>");
+        break;
+    case 4:
+        ans = a / b;
+        document.write("<h1>subtraction :- "+ans+"</h1>");
+        break;
+
+        default:
+            NotValid;
+    }
+</script>

@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    var a = parseInt(prompt("Enter First Number :-"));
+    var b = parseInt(prompt("Enter Second Number :-"));
+    
+    var choices = prompt("Choose Any one Operator( + , - , * , /) :- ");
+
+    var ans;
+    if(choices == "+"){
+        ans = a + b;
+    }
+    else if(choices == "-"){
+        ans = a - b;
+    }
+    else if(choices == "*"){
+        ans = a * b;
+    }
+    else if(choices == "/"){
+        ans = a / b;
+    }
+    else{
+        document.write("<h1>Invalid Number</h1>");
+    }
+
+    document.write("<h1>Ans :- "+ans+"</h1>");
+
+</script>
